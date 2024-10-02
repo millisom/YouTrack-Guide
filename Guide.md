@@ -1,4 +1,4 @@
-# Youtrack - Beginner Guideline
+# YouTrack - Beginner Guideline
 
 
 ## Table of contents
