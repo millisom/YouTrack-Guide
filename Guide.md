@@ -15,6 +15,10 @@
     - [Cards](#24-cards)
     - [Board Time Tracking](#25-board-time-tracking)
     - [Board Settings](#26-board-settings)
+- [More Workflows](#3-more-workflows) 
+   - [Create Workflow](#31-create-a-workflow)
+    - [Auto Comment](#32-example-auto-comment)
+    - [Auto Card](#33-example-auto-card)
 - [Report and Dashboard](#3-report-and-dashboard)
     - [Create a Report](#31-create-a-report)
     - [Dashboard Overview](#32-dashboard-overview)
@@ -92,9 +96,35 @@ So the last thing is the chart settings. To see the changes you do here, just ch
 ![alt text]![alt text](/pics/2.6BoardSetting2.png)
 Here you can choose the type, the calculation and the issue filter. This is a really minimalistic chart. To get better ones we will create a report in the next big point.
 
-## 3. Report and Dashboard
+## 3. More Workflows
 
-### 3.1 Create a Report
+### 3.1 Create a Workflow
+In YouTrack you can save time by automating tasks and processes that you do often. This means you don’t have to do the same work over and over again.
+
+First, go to your account settings. After that, select Workflow.
+
+![alt text](/pics/workflow1.png)
+
+You can write down your new Workflows in the JavaScript Editor. Or you can just use the Workflow Constructor. 
+
+![alt text](/pics/workflow2.png)
+
+
+### 3.2 Example auto comment
+You can set up YouTrack to write an automatic comment every time you open an issue.
+![alt text](/pics/workflow_autocomment.png)
+
+### 3.3 Example auto card
+
+Imagine you have to work on a very similar task every week. Instead of creating a new card each time, you can have one automatically generated for you.
+
+With this workflow, a new "Write Blog Post" card will be created in the backlog as soon as your current "Write a Blog Post" card is in the final state.
+![alt text](/pics/workflow_autoblogpost.png)
+
+
+## 4. Report and Dashboard
+
+### 4.1 Create a Report
 To create a report, just click on "Reports." You’ll see different types of reports you can choose from. For example, you can select a burndown chart as one of the options.
 ![alt text](/pics/3.1CreateReport.png)
 The most important setting is the "Original Estimation Field." It is best to choose Issue Count and Story Points for a good report. You can also pick "Estimation," but you need to set the second "Original Estimation Field" to "Time Spent." If you don’t do this, you can leave the second field empty.
@@ -103,7 +133,7 @@ The most important setting is the "Original Estimation Field." It is best to cho
 In the top right, you can manually recalculate your report and change the settings. On the y-axis, you will see the "Original Estimation Field," and on the x-axis, you will see the timeline. 
 
 
-### 3.2 Dashboard Overview
+### 4.2 Dashboard Overview
 
 Here, you can see a small overview of an example dashboard. You can add widgets if you want and share your dashboard with other users or groups. You can also switch to a list view of a project, where you can see every user story and its subtasks in a clear format.
 ![alt text](/pics/3.2Dashboard.png)
@@ -111,14 +141,14 @@ Here is a picture of the list view.
 ![alt text](/pics/3.2.1List.png)
 
 
-## 4. Supporting Information
-### 4.1 GitHub Integration
+## 5. Supporting Information
+### 5.1 GitHub Integration
 You can connect your GitHub repository to the project to make commits in YouTrack. Just go to the project settings and click on VCS.
 ![alt text](/pics/4.1VSCIntegration.png)
 Now on "New VCS integration..." button you can link your GitHub repository. So after that you can do a commit if you double click on a card and then click add commit.
 ![alt text](/pics/4.1VSCIntegration2.png)
 
-### 4.2 Enable Registration on your YouTrack Server
+### 5.2 Enable Registration on your YouTrack Server
 To do this go the admin settings on the server and click on Access Management -> Auth Modules.
 ![alt text](/pics/4.2Enable%20Registration.png)
 Then there should be the "Hub" Auth Module. Simply click on it and enable the registration. Thats it.
