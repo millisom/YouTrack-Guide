@@ -7,18 +7,18 @@
     - [Create a Project](#11-create-a-project)
     - [Team](#12-team)
     - [Roles](#13-roles)
-    - [Time Tracking](#14-time-tracking)
 - [Workflows](#3-more-workflows) 
    - [Create Workflow](#31-create-a-workflow)
     - [Auto Comment](#32-example-auto-comment)
     - [Auto Card](#33-example-auto-card)
+    - [Time Tracking](#14-time-tracking)
 - [Agile Board](#2-agile-board)
     - [Overview](#21-overview)
     - [Sprints](#22-sprints)
     - [New Swimlane](#23-new-swimlane)
     - [Cards](#24-cards)
     - [Board Time Tracking](#25-board-time-tracking)
-    - [Board Settings](#26-board-settings)
+    - [Board Settings](#26-board-settings) 
 - [Report and Dashboard](#3-report-and-dashboard)
     - [Create a Report](#31-create-a-report)
     - [Dashboard Overview](#32-dashboard-overview)
@@ -34,29 +34,20 @@ If you want to create a project you go to: projects -> create project.
 Now you can name your project, give it an ID, choose the project type and give it a description.
 
 ### 1.2 Team
-The first important step is to invite the people you want to work with on your project. To do this, you need to go to the project settings. You can find it when you click on your project in the projects tab.
+YouTrack is a great platform for working with teams. You can invite anyone with a YouTrack Account to your project. To do this, you need to go to the project settings. You can find it when you click on your project in the projects tab.
 
 Now you see the project settings on the right
 ![alt text](/pics/1.2Team2.png)
-Now, click on "Team." After that, you’ll see a button called "Add members." Click it to add new people to your team. But remember, you can only add people who are already registered on the YouTrack server. When you add someone, they automatically get the role of a developer.
+Now, click on "Team." After that, you’ll see a button called "Add members." Click it to add new people to your team.
 
 ### 1.3 Roles
-Each project has different roles. Like I said before, when you add people, they get the developer role automatically. If you want to change their role, go back to the project settings and click on "Access." Here, you can see all your team members and their roles. To change someone's role, click "Grant role" and choose a new role for the person or group.
+Each project has different roles. When you add people, they get the developer role automatically. If you want to change their role, go back to the project settings and click on "Access." Here, you can see all your team members and their roles. To change someone's role, click "Grant role" and choose a new role for the person or group.
 ![alt text](/pics/3.Roles1.png)
 If you want to know more about the roles you can go to the administration settings of the youtrack server. Here you go to Access Management -> Roles.
 ![alt text](/pics/3.Roles3.png)
 
 Here you see a list of all the roles available on the YouTrack server and what each role can do. If you are the owner of the server, you can also add new roles to the server.
 
-### 1.4 Time Tracking
-Before you go to the Agile board(s) of your project, I suggest turning on time tracking. This feature helps you automatically track how long a task or card is in progress. To enable time tracking, go to the project settings again and select "Time Tracking." Then, set the options like shown in the picture.
-![alt text](/pics/1.4TimeTracking1.png)
-After that you go to workflow 
-![alt text](/pics/workflow1.png)
-and click on "Attach workflows". Then you search for the "In Progress Work Timer".
-![alt text](/pics/1.4TimeTracking2.png)
-If you have never set up this work flow before you will get a "requires setup" notification next to the "In Progress Work Timer". On the right half you see a detailed view with 2 Rules. Simply click on Apply fixes to use time tracking.
-![alt text](/pics/1.4TimeTracking3.png)
 
 ## 2. Workflows
 
@@ -83,6 +74,15 @@ Imagine you have to work on a very similar task every week. Instead of creating 
 With this workflow, a new "Write Blog Post" card will be created in the backlog as soon as your current "Write a Blog Post" card is in the final state.
 ![alt text](/pics/workflow_autoblogpost.png)
 
+### 2.4 Time Tracking
+Before you go to the Agile board(s) of your project, I suggest turning on time tracking. This feature helps you automatically track how long a task or card is in progress. To enable time tracking, go to the project settings again and select "Time Tracking." Then, set the options like shown in the picture.
+![alt text](/pics/1.4TimeTracking1.png)
+After that you go to workflow 
+![alt text](/pics/workflow1.png)
+and click on "Attach workflows". Then you search for the "In Progress Work Timer".
+![alt text](/pics/1.4TimeTracking2.png)
+If you have never set up this work flow before you will get a "requires setup" notification next to the "In Progress Work Timer". On the right half you see a detailed view with 2 Rules. Simply click on Apply fixes to use time tracking.
+![alt text](/pics/1.4TimeTracking3.png)
 
 ## 3. Agile Board
 
@@ -157,6 +157,6 @@ Now on "New VCS integration..." button you can link your GitHub repository. So a
 ![alt text](/pics/4.1VSCIntegration2.png)
 
 ### 5.2 Enable Registration on your YouTrack Server
-To do this go the admin settings on the server and click on Access Management -> Auth Modules.
+Authentication modules are used to check the identity of users before allowing them to access resources in YouTrack. To enable this go the admin settings on the server and click on Access Management -> Auth Modules.
 ![alt text](/pics/4.2Enable%20Registration.png)
 Then there should be the "Hub" Auth Module. Simply click on it and enable the registration. Thats it.
