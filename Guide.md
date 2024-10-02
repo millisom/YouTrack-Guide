@@ -130,7 +130,7 @@ With this workflow, a new "Write Blog Post" card will be created in the backlog 
 To create a report, just click on "Reports." You’ll see different types of reports you can choose from. For example, you can select a burndown chart as one of the options.
 ![alt text](/pics/3.1CreateReport.png)
 The most important setting is the "Original Estimation Field." It is best to choose Issue Count and Story Points for a good report. You can also pick "Estimation," but you need to set the second "Original Estimation Field" to "Time Spent." If you don’t do this, you can leave the second field empty.
-![alt text](https://i.imgur.com/4MvnXu4.png "Burndown example")
+![alt text](/pics/Burndown.png)
 (not my picture)<br>
 In the top right, you can manually recalculate your report and change the settings. On the y-axis, you will see the "Original Estimation Field," and on the x-axis, you will see the timeline. 
 
