@@ -1,5 +1,6 @@
 # Youtrack - Beginner Guideline
 
+
 ## Table of contents
 - [Table of contents](#table-of-contents)
 - [Project](#1-project)
