@@ -42,11 +42,11 @@ Now, click on "Team." After that, you’ll see a button called "Add members." Cl
 
 ### 1.3 Roles
 Each project has different roles. Like I said before, when you add people, they get the developer role automatically. If you want to change their role, go back to the project settings and click on "Access." Here, you can see all your team members and their roles. To change someone's role, click "Grant role" and choose a new role for the person or group.
-![alt text](/pics/3.Roles1.png))
+![alt text](/pics/3.Roles1.png)
 If you want to know more about the roles you can go to the administration settings of the youtrack server. Here you go to Access Management -> Roles.
 ![alt text](/pics/3.Roles3.png)
 
-Here, you will see a list of all the roles available on the YouTrack server and what each role can do. If you are the owner of the server, you can also add new roles to the server.
+Here you see a list of all the roles available on the YouTrack server and what each role can do. If you are the owner of the server, you can also add new roles to the server.
 
 ### 1.4 Time Tracking
 Before you go to the Agile board(s) of your project, I suggest turning on time tracking. This feature helps you automatically track how long a task or card is in progress. To enable time tracking, go to the project settings again and select "Time Tracking." Then, set the options like shown in the picture.
