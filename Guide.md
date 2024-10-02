@@ -51,7 +51,9 @@ Here you see a list of all the roles available on the YouTrack server and what e
 ### 1.4 Time Tracking
 Before you go to the Agile board(s) of your project, I suggest turning on time tracking. This feature helps you automatically track how long a task or card is in progress. To enable time tracking, go to the project settings again and select "Time Tracking." Then, set the options like shown in the picture.
 ![alt text](/pics/1.4TimeTracking1.png)
-After that you go to workflow (also in the project settings) and click on "Attach workflows". Then you search for the "In Progress Work Timer".
+After that you go to workflow 
+![alt text](/pics/workflow1.png)
+and click on "Attach workflows". Then you search for the "In Progress Work Timer".
 ![alt text](/pics/1.4TimeTracking2.png)
 If you have never set up this work flow before you will get a "requires setup" notification next to the "In Progress Work Timer". On the right half you see a detailed view with 2 Rules. Simply click on Apply fixes to use time tracking.
 ![alt text](/pics/1.4TimeTracking3.png)
